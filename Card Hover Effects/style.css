@@ -78,7 +78,7 @@ body{
     transform: translateY(0px);
 }
 
-.container .card .face.face2 .content p {
+.container .card .face.face2 .content p   {
     margin: 0;
     padding: 0;
 }
