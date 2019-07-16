@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Responsive Image Gallery"
+    "\\Parallax Scrolling",
+    "\\Parallax Scrolling\\img",
+    "\\Responsive Image Gallery\\img"
   ],
-  "SelectedNode": "\\Responsive Image Gallery\\style.css",
+  "SelectedNode": "\\Parallax Scrolling\\img",
   "PreviewInSolutionExplorer": false
 }

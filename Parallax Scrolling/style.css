@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-container{
+    height: 800px!important;
+}
+
+section{
+    width: 100%;
+    min-height: 400px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
