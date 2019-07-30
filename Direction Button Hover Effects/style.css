@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 930px;
+    min-height: 931px;
     background: black;
     font-family: Consolas;
 }
