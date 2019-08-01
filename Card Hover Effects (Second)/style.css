@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 900px;
     background: #003e46;
     font-family: 'Lacquer', sans-serif;
 }
@@ -78,7 +78,7 @@ body {
     margin: 10px 0 0;
     padding: 0;
     opacity: 0;
-    line-height: 1.2em;
+    line-height: 19px;
     transition: 0.5s;
     text-align: justify;
 }
