@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Change Bacground Color on Hover Menu</title>
+</head>
+<body>
+
+    <ul>
+        <li onmouseover="javascript:changeColorBg('ff6b6b')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">Home</a></li>
+
+        <li onmouseover="javascript:changeColorBg('48dbfb')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">About Us</a></li>
+
+        <li onmouseover="javascript:changeColorBg('50ff66')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">Services</a></li>
+
+        <li onmouseover="javascript:changeColorBg('feca57')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">Portfolio</a></li>
+
+        <li onmouseover="javascript:changeColorBg('f368e0')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">Our Team</a></li>
+
+        <li onmouseover="javascript:changeColorBg('7143ff')"
+            onmouseout="javascript:changeColorBg('transparent')"><a href="#">Contact Us</a></li>
+    </ul>
+    <script type="text/javascript">
+        function changeColorBg(color) {
+            document.bgColor = color;
+        }
+    </script>
+</body>
+</html>
