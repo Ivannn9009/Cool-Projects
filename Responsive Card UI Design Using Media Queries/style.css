@@ -1,13 +1,14 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Gelasio:400,400i,500,500i,600,600i,700,700i&display=swap');
+﻿@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gelasio', serif;
+    font-family: 'Fjalla One', sans-serif;
 }
-body{
-    width: 100%; 
+body {
+    width: 100%;
     min-height: 100vh;
+    background: radial-gradient(circle, rgba(47,227,104,1) 0%, rgba(24,145,77,1) 21%, rgba(15,94,64,1) 41%, rgba(13,75,70,1) 66%, rgba(50,128,138,1) 84%, rgba(113,211,237,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,19 +82,19 @@ flex-direction: row;
 }
 .container .card .contentBx h2 {
     font-size: 30px;
-    color: white;
+    color: #50A8BA;
 }
-.container .card .contentBx p{
+.container .card .contentBx p {
     margin-top: 10px;
-    color: white;
+    color: #0e4f45;
 }
-.container .card .contentBx a{
+.container .card .contentBx a {
     display: inline-block;
     margin-top: 15px;
-    color: white;
+    color: #29ce61;
     text-decoration: none;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid #246c71;
 }
 @media (max-width: 1000px){
     .container .card {
