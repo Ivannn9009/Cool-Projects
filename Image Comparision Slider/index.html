@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Comparision Slider</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="slide slide1"></div>
+        <div class="slide slide2" id="slide"></div>
+    </div>
+    <script type="text/javascript">
+        var slide = document.getElementById('slide');
+        window.onmousemove = function (e) {
+            var x = e.clientX;
+            slide.style.left = x + 'px';
+        }
+    </script>
+</body>
+</html>
