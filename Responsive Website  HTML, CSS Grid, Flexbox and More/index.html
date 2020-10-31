@@ -1,30 +1,62 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,
           initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Responsive Website  HTML, CSS Grid, Flexbox and More</title>
+    <title>Responsive Website HTML, CSS Grid, Flexbox and More</title>
 </head>
+
 <body>
 
     <!--NAVBAR-->
     <div class="navbar">
-        <div class="container">
-            <h1 class="logo">Website</h1>
+        <div class="container flex">
+            <h1 class="logo"> Website</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Homeeeeee</a></li>
-                    <li><a href="features.html">Features</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a hre f="features.html">Features</a></li>
                     <li><a href="docs.html">Docs</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
+    <!--SHOWCASE-->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Easier Deployment</h1>
+                <p>Deploy web apps of all kinds, from large scale
+                    enterprice APISs to static websites for individu.
+                    Fill out the form to try a demo of out platform</p>
+                <a href="features.html" class="btn btn-outline">Read more</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Request a Demo</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
