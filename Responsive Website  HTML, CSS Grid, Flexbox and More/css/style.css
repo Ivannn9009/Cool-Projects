@@ -1,7 +1,10 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 
 *{
@@ -11,7 +14,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -63,6 +66,12 @@ img{
     justify-content: space-between;
 }
 
+/* .logo{
+    height: 72px;
+     width: 160px;
+      padding-top: 10px;
+} */
+
         /*SHOWCASE*/
 
 .showcase{
@@ -113,35 +122,89 @@ img{
     outline: none;
 }
 
-      /*UTILITIES*/
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
+.showcase::before,
+.showcase::after{
+content: '';
+position: absolute;
+height: 100px;
+bottom: -70px;
+right: 0;
+left: 0;
+background: white;
+transform: skewY(-3deg);
+-webkit-transform: skewY(-3deg);
+-moz-transform: skewY(-3deg);
+-ms-transform: skewY(-3deg);
 }
 
-.card{
-    background-color: white;
-    color: #333;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
-    padding: 20px;
-    margin: 10px;
+        /*STATS*/
+
+.stats{
+    padding-top: 100px;
+}    
+
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.stats .grid h3{
+    font-size: 35px;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
 }
+
+            /*CLI*/
+
+.cli .grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .cli-img{ 
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+            /*CLOUD*/
+
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
+}
+
+        /*Languages*/
+.languages .flex{
+   flex-wrap: wrap; 
+}
+
+.languages .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    max-width: 100px;
+    height: 150px;
+    transition: transform 0.2s ease-in;
+}
+
+.languages .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover{
+    transform: translateY(-15px);
+}
+
+            /*Footer*/
+            
+.footer .social a{
+    margin: 0 10px;
+}
+
+.container nav ul li a {
+    padding: 10px;
+    margin: 0 5px;
+}
+
