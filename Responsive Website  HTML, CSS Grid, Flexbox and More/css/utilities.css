@@ -60,8 +60,26 @@
 .bg-dark a, .btn-dark a {
     color: white;
 }
-
             /*END Backgrounds and colored buttons*/
+
+            /*Text colors*/
+
+            .text-primary{
+                color: var(--primary-color);
+            }
+            
+            .text-secondary{
+                color: var(--secondary-color);
+            }
+            
+            .text-dark{
+                color: var(--dark-color);
+            }
+            
+            .text-light{
+                color: var(--light-color);
+            }
+             /*END Text colors*/
 
             /*Text sizes*/
 
@@ -91,18 +109,38 @@
     text-align: center;
 }
 
+        /*Alert*/
+
+ .alert{
+     background-color: var(--light-color);
+     padding: 10px 20px;
+     font-weight: bold;
+     margin: 15px 0;
+ }   
+
+ .alert i{
+     margin-right: 10px; 
+ }
+
+ .alert-success{
+     background-color: var(--success-color);
+     color: white;
+     border-radius: 10px;
+     box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
+ }
+
+ .alert-error{
+    background-color: var(--error-color);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
+}
+
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.flex-features{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
 }
 
 .grid{
@@ -117,7 +155,6 @@
 .grid-3{
     grid-template-columns: repeat(3, 1fr);
 }
-
 
             /* MARGIN */
 
