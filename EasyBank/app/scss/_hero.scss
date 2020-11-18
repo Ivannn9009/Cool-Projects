@@ -76,22 +76,5 @@
             order: 1;
             text-align: left;
         }
-
-        h1 {            
-            line-height: 1.15;
-            color: $darkBlue;
-            font-weight: 300;
-            font-size: 37px;
-            margin-bottom: 24px;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlg;
-            }
-        }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 36px;
-        }
     }
 }
