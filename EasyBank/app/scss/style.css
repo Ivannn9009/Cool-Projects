@@ -317,7 +317,6 @@ button:hover::before, .button:hover::before {
   padding: 26px;
   border-radius: 5px;
   z-index: 999;
-  background-color: red;
 }
 
 .header__menu a {
