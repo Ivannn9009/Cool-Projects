@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\EasyBank",
     "\\EasyBank\\dist",
     "\\Responsive Website  HTML, CSS Grid, Flexbox and More",
     "\\Responsive Website  HTML, CSS Grid, Flexbox and More\\css",
     "\\test"
   ],
-  "SelectedNode": "\\EasyBank",
+  "SelectedNode": "\\EasyBank\\index.html",
   "PreviewInSolutionExplorer": false
 }
