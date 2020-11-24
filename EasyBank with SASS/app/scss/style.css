@@ -599,7 +599,7 @@ button:hover::before, .button:hover::before {
 .footer {
   background-color: #2d314d;
   color: white;
-  padding: 140px;
+  padding: 40px;
   text-align: center;
 }
 
